@@ -1,0 +1,141 @@
+.blog-title {
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+}
+
+.blog-date {
+	margin-top: 70px;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+}
+
+.blog-content {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-rignt: 5px;
+	min-height: 380px;
+	font-size: 20px;
+	word-break: break-all;
+}
+
+.edit-comment {
+	width: 100%;
+	height: 190px;
+	background: #fff;
+}
+
+.tourist-info {
+	width: 445px;
+	margin: 0 auto;
+}
+
+.tourist-info li {
+	float: left;
+	margin-left: 20px;
+	width: 190px;
+}
+
+.tourist-info input {
+	float: left;
+	background: #DCDCDC;
+}
+
+.tourist-info p {
+	float: left;
+	color: red;
+	width: 5px;
+}
+
+.review {
+	margin-top: 5px;
+	width: 100%;
+	height: 100px;
+	background: #DCDCDC;
+}
+
+.comment-submit {
+	border: none;
+    display: block;
+	margin-top: 82px;
+	margin-left: 90%;
+	width: 60px;
+	height: 30px;
+	background: green;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.comment-submit:hover {
+	background: #80ff80;
+}
+
+/*placeholder*/
+#tourist-form ::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+
+#tourist-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #e74c3c;
+}
+
+#tourist-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e74c3c;
+}
+
+#tourist-form :-ms-input-placeholder {
+  color: #e74c3c;
+}
+
+.comment {
+	margin-top: 20px;
+	width: 100%;
+	min-height: 80px;
+}
+
+.comment-tourist {
+	font-size: 15px;
+	color: #008080;
+}
+
+.comment-content {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+	width: 620px;
+}
+
+.comment-date {
+	margin-top: 10px;
+	margin-left: 76%;
+	font-size: 15px;
+	width: 150px;
+	color: green;
+}
+
+#comments {
+	width: 100%;
+	min-height: 0px;
+}
+.del-comment {
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: green;
+	float: right;
+	color: #FFF;
+	border-radius: 50px;
+}
+.del-comment:hover {
+	background-color: lightgreen;
+}
